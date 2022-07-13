@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Portfólio Marioxis Macías validação API</title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <!-- header -->  
+         <header>
+           <nav class="nav"> 
+              <img class="mini_avatar" src="img/01.jpg" width="20" alt="Avatar">
+            <ul class="index">
+               <li> <a href="#APRESENTAÇÃO" class= "item"> APRESENTAÇÃO </a></li>
+               <li> <a href="#FORMAÇÃO" class= "item"> FORMAÇÃO </a></li>
+               <li> <a href="#PROJETOS" class= "item"> PROJETOS </li></a>
+               <li> <a href="#FALECOMIGO" class= "item"> FALE COMIGO</a></li>
+             </ul>
+             </nav>
+          </header>
+          <!-- banner -->  
+         <section class="banner">
+         <img class="banner_img" src="img/pngwing.com.png" alt="background" width="100%" height="30%">
+          </section>
+        <!-- photo -->  
+         <section class= "img">
+           <div>
+                <img class="profile_img" src="img/01.jpg" alt="Profile" width="200px" height="200px">
+                
+                <span class="badge1"><img src="img/twitter-sign.png" alt="twitter"></span>
+            
+                <span class="badge2"><img src="img/github.png" alt="GitHub"></span>
+           
+                <span class="badge3"><img src="img/1298732_codepen_icon.png" alt="Codepen"></span>
+            </div>
+       
+         <!-- description -->
+         <did class="description"> 
+       <h1 class="name">Marioxis Macías</h1>
+       <h2 class="subtitle"><i>Back-End Developer</i></h2>
+        </did>
+         <h2 class="saludo">Olá</h2>
+         <div class="descri"><p> Sou Marioxis, moro em Rio Grande (RS - Brasil), sou mestre em oceanografia biológica e meu objetivo é me tornar uma desenvolvedora do Back-End.</p></div>
+       </section>
+        <!-- formacion -->  
+       <section class="formacion">
+          <h2 class="titulo2">Formação</h2>
+             
+             <p class="li">2009-2018</p> 
+             <p class="title">Bachelor em Biologia</p>
+             <p class="uni">Universidad de Carabobo (UC) - Venezuela</p><br>
+        
+             <p class="li">2019-2021</p>
+             <p class="title">Mestre em Oceanografia Biologica</p>
+             <p class="uni">Universidade Federal do Rio Grande (FURG) - Brasil</p><br>
+       
+             <p class="li">2021-Andamento</p>
+             <p class="title">Doutoranda em Oceanografia Biologica</p>
+             <p class="uni">Universidade Federal do Rio Grande (FURG) - Brasil</p></br>
+            
+             <p class="li">2022-Andamento</p>
+             <p class="title">Desenvolvedora Back-End</p>
+             <p class="uni">TOTI - Brasil</p></br>
+        </section>
+         
+        <!-- repository -->  
+       <section class="project">
+         <h2 class="titulo3">Projetos</h2>
+           <article>
+                <div class="proj1">
+                    <img src="img/02.jpg" width="150px" height="150px" alt="Receita de frango">
+                    <h3>Receita brasileira</h3>
+                    <p>Strogonoff de frango</p>  
+                    <a href="https://codepen.io/marioxis/pen/dymbzeV">
+                        <button class="primario">
+                            <span>REPOSITÓRIO</span>
+                        </button>
+                    </a>
+                    <a href="https://codepen.io/marioxis/pen/dymbzeV">
+                        <button class="primario">
+                            <span>CODEPEN</span>
+                        </button>
+                    </a>
+                </div>
+                <div class="proj2"> 
+                    <img src="img/03.jpg" width="150px" height="150px" alt="Tubarões e raias">
+                    <h3>Práctica Layout</h3>
+                    <p>Layout de Wikipedia</p>  
+                    <a href="https://codepen.io/marioxis/pen/MWQNMGz">
+                        <button class="primario">REPOSITÓRIO</button>
+                    </a>
+                    <a href="https://codepen.io/marioxis/pen/MWQNMGz">
+                        <button class="primario">
+                            <span>CODEPEN</span>
+                        </button>
+                    </a>
+                </div>
+            </article>
+            
+        </section>
+        <section class="repo2">
+            <h2 class="titulo4">Repositorios</h2>
+                <section id="repositories">
+            </section>
+         </section>
+         <!-- footer -->  
+    <footer >
+        <div class="contato">
+         <h2 class="titulo5">Contato</h2>
+                    <div class="sec4 pi">  
+                        <p>Quer entrar em contato comigo?<br>
+                        Preencha o formulário ao lado e entrarei em contato o mais rápido possível.<br>
+                        Você também pode me encontrar nas seguintes redes sociais:</p>
+                       
+                    
+                        <a href="https://twitter.com/Mrx_Macias" class="media" title="Twitter">
+                            <img src="img/2959740_bird_news_tweet_twitter_icon.png" alt="Logo Twitter" width="20">
+                        </a>
+                        
+                        <a href="https://github.com/marioxis" title="Github">
+                            <img src="img/1298743_github_git_logo_social_icon.png" alt="Logo GitHub" width="20">
+                        </a>
+                    
+                        <a href="https://codepen.io/marioxis" title="Codepen">
+                            <img src="img/2701148_code_codepen_css_html_javascript_icon.png" alt="Logo Codepen" width="20">
+                        </a>
+                    
+          <!-- formulario --> 
+                 
+                    <form action="/" method="post" id="contact-form">
+                        <div class="row">
+                            <label><b>NOME</b></label>
+                            <input type="text" name="Name" required class="validate" title="Preencha o campo Nome">
+                            <span class="error"></span>
+                        </div>
+               
+                        <div class="row">
+                            <label><b>E-MAIL</b></label>
+                            <input type="email" required class="validate">
+                            <span class="error"></span>
+                        </div>
+               
+                        <div class="row">
+                                <label><b>ASSUNTO</b></label>
+                                <input type="text" required class="validate" title="Preencha o campo Assunto">
+                                <span class="error"></span>
+                        </div>
+                        
+                        <div class="row">
+                                <label><b>MENSAGEM</b></label>
+                                <textarea class="materialize-textarea"></textarea>
+                        </div>
+               
+                        <button class="row2" data-position="top" type="submit" name="action">
+                        ENVIAR
+                        </button>
+                    </form>             
+                </div>
+                    <p class="alinear">By <a href="https://twitter.com/Mrx_Macias">Marioxis Macías</a></p>
+        
+                </section>
+        </footer>
+       </div>
+    </section>
+</body>
+       
